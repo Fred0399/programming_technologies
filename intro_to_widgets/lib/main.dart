@@ -3,7 +3,9 @@ import 'package:intro_to_widgets/Buttons.dart';
 import 'package:intro_to_widgets/boxWithColor.dart';
 import 'package:intro_to_widgets/input/form_input.dart';
 import 'package:intro_to_widgets/input/texxt_input.dart';
+import 'package:intro_to_widgets/networking/presentation/weather_app.dart';
 import 'package:intro_to_widgets/provider/counter.dart';
+import 'package:intro_to_widgets/provider_username/profile_username.dart';
 import 'package:intro_to_widgets/seminareTask.dart';
 import 'package:intro_to_widgets/semn/buttons_delayed_text.dart';
 import 'package:provider/provider.dart';
@@ -98,7 +100,9 @@ class _MyHomePageState extends State<MyHomePage> {
         // ),
 
         // child: TexxtInput(),
-        child: ButtonsDelayedText(),
+        // child: ButtonsDelayedText(),
+        // child: ProfileUsername(),
+        child: WeatherApp(),
 
         // child: FormInput(),
 
